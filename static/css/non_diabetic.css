@@ -1,11 +1,4 @@
-h1{
-    text-align: center;
-    font-size: 100px;
-    width: 1000px;
-    height: 150px;
-    background: linear-gradient(90deg, rgb(242, 242, 242) 0%, rgba(23,224,46,1) 50%);
-    margin-left: 400px;
-    margin-top: 350px;
-    border-radius: 1%  ;
-    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+    background: linear-gradient(30deg,hsla(152, 100%, 50%, 1), hsla(186, 100%, 69%, 1));
+    background-attachment: fixed;;
 }

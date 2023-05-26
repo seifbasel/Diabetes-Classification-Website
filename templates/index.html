@@ -25,9 +25,9 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary pt-0 pb-0">
             <div class="container-fluid  m-0 pt-0 " id="nav_color">
                 <a class="navbar-brand" href="#">
-                    <img src="../static/img/icons8-diabetes-100.png" alt="Bootstrap" width="30px" height="30px">
-                  </a>
-              
+                    <img src="../static/img/icons8-diabetes-100.png" width="30px" height="30px">
+                </a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -41,8 +41,7 @@
                             <a class="nav-link active ms-6 me-5 text-white" href="#header_3">Model</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active ms-6 me-5 text-white"
-                                href="#form_style">Classification</a>
+                            <a class="nav-link active ms-6 me-5 text-white" href="#form_style">Classification</a>
                         </li>
                     </ul>
                 </div>
@@ -52,33 +51,74 @@
 
     <div class="container-fluid justify-content-center">
         <div class="jumbotron text-capitalize m-4 p-5 pt-2" id="header_1_color">
-            <div class="row ">
-                <div class="col-md-6">
+            <div class="row align-items-center">
+                <div class="col-md-8">
                     <h1>Diabetes examination</h1>
-                    <p>This website utilizes classification techniques to determine whether the patient has diabetes or not</p>
-                    <p><a class="btn btn-lg submit_btn" href="#form_style" role="button">classification</a></p>
+                    <p>This website utilizes classification techniques to determine whether the patient has diabetes or
+                        not</p>
+                    <p><a class="btn btn-lg mt-3 submit_btn" href="#form_style" role="button">classification</a></p>
                 </div>
-                <div class="col-md-3"></div>
                 <div class="col-md-3">
-                    <object type="image/svg+xml" width="300px" height="300px" data="../static/img/online-doctor-animate(1).svg"></object>
+                    <object type="image/svg+xml" width="300px" height="300px"
+                        data="../static/img/online-doctor-animate(1).svg"></object>
                 </div>
             </div>
         </div>
     </div>
-    
-    <div class="container-fluid  mb-5 pb-5  ps-5 border-opacity-50 border-black border-top align-content-center">
-        <div class="container text-center pt-5 align-content-center">
+    <hr>
+    <div class="container-fluid ps-5 align-content-center">
+        <div class="container-fluid text-center pt-5 align-content-center">
             <h1 id="header_1_color">Diabetes Risks
             </h1>
             <div class="row align-items-center justify-content-center mb-5 mt-5">
-                <div class="col-12 align-content-center">
-                    <img src="../static/img/1.jpg" class="img-fluid " alt="Diabetes" id="img_1">
+                <div class="col-3 align-content-center ms-0">
+                    <object type="image/svg+xml" width="300px" height="300px"
+                        data="../static/img/diabetes-animate.svg"></object>
                 </div>
 
+                <div class="col-9 align-content-start fw-medium fs-4 text-start" id="par_1">
+                    Diabetes is a chronic metabolic disorder characterized by high blood sugar levels, resulting from
+                    insufficient insulin production or ineffective insulin utilization. It is categorized into type 1,
+                    which appears in childhood and requires lifelong insulin treatment, and type 2, associated with
+                    adulthood and often linked to obesity and lifestyle factors. With a global impact, diabetes can lead
+                    to various complications if not properly managed.
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid mb-5 pb-5 pe-5">
+            <div class="container text-center">
+                <div class="row align-items-center justify-content-center mb-5">
+                    <div class="col-9 fw-medium fs-4 mt-5 text-start align-items-start" id="par_2">
+                        The effects of diabetes can be wide-ranging and impactful. Prolonged high blood sugar levels can
+                        damage blood vessels and nerves, leading to complications such as cardiovascular issues, kidney
+                        damage, eye problems, nerve damage, and an increased risk of infections and slow wound healing.
+                        Diabetes can also significantly affect daily life, causing fatigue, excessive thirst, frequent
+                        urination, unexplained weight loss, and other symptoms that hinder overall well-being.
+                    </div>
+
+                    <div class="col-3">
+                        <object type="image/svg+xml" width="300px" height="300px"
+                            data="../static/img/infertility-diagnosis-animate.svg"></object>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center mb-5 mt-5">
+                <div class="col-12 align-content-center text-center ms-0">
+                    <object type="image/svg+xml" width="300px" height="300px"
+                        data="../static/img/diabetes-animate 2.svg"></object>
+                </div>
                 <div class="col-12 align-content-start mt-5 fw-medium fs-4 text-start" id="par_1">
-                    Diabetes is a group of diseases that affect how the body uses blood sugar (glucose). It can lead
-                    to excess sugar in the blood, which can cause serious health problems. Some of the risks associated
-                    with diabetes include heart disease, stroke, kidney failure, vision loss, and nerve damage .
+                    Early diagnosis of diabetes is crucial for effective management and prevention of complications. In
+                    recent years, advancements in technology and machine learning have facilitated the development of
+                    classification models that can aid in predicting the likelihood of an individual having diabetes.
+                    These models utilize various features such as age, body mass index (BMI), glucose levels, and other
+                    relevant health indicators to assess the risk of diabetes. This can be done using classification
+                    models like KNN, SVM and
+                    others.
                 </div>
             </div>
         </div>
@@ -86,31 +126,7 @@
 
     </div>
 
-
-
-    <div class="container-fluid mt-5 mb-5 pb-5 pe-5 border-opacity-50 border-bottom border-black">
-        <div class="container text-center">
-            <div class="row align-items-center justify-content-center mb-5">
-
-                <div class="col-6 fw-medium fs-4 mt-5 text-start align-items-start" id="par_2">
-                    Early diagnosis of diabetes is important to prevent the worst effects of the disease.
-                    Regular check-ups and blood tests with a healthcare provider can help detect diabetes early.
-                    diabetes early treatment can potentially avoid the complications that coincide with the subsequent
-                    stages of diabetes.
-                </div>
-
-                <div class="col-6">
-                    <img src="../static/img/3.jpg" class="img-fluid fs-4 mt-5 align-items-center " alt="diabetes"
-                        id="img_2">
-                </div>
-
-            </div>
-        </div>
-
-
-    </div>
-
-
+    <hr>
 
     <!-- //////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -125,7 +141,8 @@
 
                 <div class="card-body border-5">
                     <h5 class="card-title fw-bold">Card 1</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
                         card's
                         content.</p>
                 </div>
@@ -137,7 +154,8 @@
 
                 <div class="card-body border-5">
                     <h5 class="card-title fw-bold">Card 2</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
                         card's
                         content.</p>
                 </div>
@@ -150,7 +168,8 @@
 
                 <div class="card-body border-5 ">
                     <h5 class="card-title fw-bold">Card 3</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
                         card's
                         content.</p>
                 </div>
@@ -161,7 +180,8 @@
 
                 <div class="card-body border-5">
                     <h5 class="card-title fw-bold">Card 4</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
                         card's
                         content.</p>
                 </div>
@@ -172,7 +192,8 @@
 
                 <div class="card-body border-5">
                     <h5 class="card-title fw-bold">Card 5</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
                         card's
                         content.</p>
                 </div>
@@ -183,7 +204,8 @@
 
                 <div class="card-body border-5">
                     <h5 class="card-title fw-bold">visulization 6</h5>
-                    <p class="card-text">this is a visulization foor the relation between gulucose an cholesterol</p>
+                    <p class="card-text">this is a visulization foor the relation between gulucose an cholesterol
+                    </p>
                 </div>
             </div>
 
@@ -192,7 +214,7 @@
     <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
 
 
-    
+
     <div id="form_style">
         <h1 class="text-center mt-5 mb-5 pb-5">Diabetes classification</h1>
         <form action="/predict" method="post">
@@ -236,9 +258,11 @@
                     </div>
                 </div>
                 <div class="container-fluid justify-content-end text-end ">
-                    <button class="btn mb-4 ms-4 submit_btn" type="submit" name="predict_button" value="knn_predict">Predict
+                    <button class="btn mb-4 ms-4 submit_btn" type="submit" name="predict_button"
+                        value="knn_predict">Predict
                         Using KNN</button>
-                    <button class="btn mb-4 ms-4 submit_btn" type="submit" name="predict_button" value="svm_predict">Predict
+                    <button class="btn mb-4 ms-4 submit_btn" type="submit" name="predict_button"
+                        value="svm_predict">Predict
                         Using SVM</button>
                 </div>
             </div>

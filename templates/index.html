@@ -24,22 +24,25 @@
     <div class="container-fluid pb-5 m-0 ps-0 pe-0 sticky-top ">
         <nav class="navbar navbar-expand-lg bg-body-tertiary pt-0 pb-0">
             <div class="container-fluid  m-0 pt-0 " id="nav_color">
-                <a class="navbar-brand fs-5 fw-bolder text-white" href="#" id="title">Diabetes </a>
+                <a class="navbar-brand" href="#">
+                    <img src="../static/img/icons8-diabetes-100.png" alt="Bootstrap" width="30px" height="30px">
+                  </a>
+              
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse  justify-content-center  fs-4 ms-3 " id="navbarNav">
+                <div class="collapse navbar-collapse  justify-content-center ms-3 navText" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active fs-4 ms-6 me-5 text-white" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active ms-6 me-5 text-white" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active fs-4 ms-6 me-5 text-white" href="#header_3">model</a>
+                            <a class="nav-link active ms-6 me-5 text-white" href="#header_3">Model</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active fs-4 ms-6 me-5 text-white"
-                                href="#header_2_color">classification</a>
+                            <a class="nav-link active ms-6 me-5 text-white"
+                                href="#form_style">Classification</a>
                         </li>
                     </ul>
                 </div>
@@ -47,29 +50,34 @@
         </nav>
     </div>
 
-
-    <div class="container justify-content-center">
-
-        <div class="jumbotron text-capitalize ps-5 m-5 p-5" id="header_1_color">
-            <h1>Diabetes examination
-            </h1>
-            <p>this is web site to check if the user has Diabetes or not using classification</p>
-            <p><a class="btn btn-primary btn-lg" href="#header_2_color" role="button">classification</a></p>
+    <div class="container-fluid justify-content-center">
+        <div class="jumbotron text-capitalize m-4 p-5 pt-2" id="header_1_color">
+            <div class="row ">
+                <div class="col-md-6">
+                    <h1>Diabetes examination</h1>
+                    <p>This website utilizes classification techniques to determine whether the patient has diabetes or not</p>
+                    <p><a class="btn btn-lg submit_btn" href="#form_style" role="button">classification</a></p>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <object type="image/svg+xml" width="300px" height="300px" data="../static/img/online-doctor-animate(1).svg"></object>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="container-fluid  mb-5 pb-5  ps-5 border-opacity-50   border-black border-top align-content-center">
-        <div class="container text-center  pt-5 align-content-center">
-            <h1 id="header_1_color">Diabetes risks
+    
+    <div class="container-fluid  mb-5 pb-5  ps-5 border-opacity-50 border-black border-top align-content-center">
+        <div class="container text-center pt-5 align-content-center">
+            <h1 id="header_1_color">Diabetes Risks
             </h1>
-            <div class="row align-items-center justify-content-center  mb-5 mt-5">
+            <div class="row align-items-center justify-content-center mb-5 mt-5">
                 <div class="col-12 align-content-center">
                     <img src="../static/img/1.jpg" class="img-fluid " alt="Diabetes" id="img_1">
                 </div>
 
-                <div class="col-12 align-content-center mt-5 fw-medium fs-4 text-center shadow rounded-4 " id="par_1">
+                <div class="col-12 align-content-start mt-5 fw-medium fs-4 text-start" id="par_1">
                     Diabetes is a group of diseases that affect how the body uses blood sugar (glucose). It can lead
-                    to
-                    excess sugar in the blood, which can cause serious health problems. Some of the risks associated
+                    to excess sugar in the blood, which can cause serious health problems. Some of the risks associated
                     with diabetes include heart disease, stroke, kidney failure, vision loss, and nerve damage .
                 </div>
             </div>
@@ -84,7 +92,7 @@
         <div class="container text-center">
             <div class="row align-items-center justify-content-center mb-5">
 
-                <div class="col-6 fw-medium fs-4 mt-5 text-start align-items-center shadow rounded-4 " id="par_2">
+                <div class="col-6 fw-medium fs-4 mt-5 text-start align-items-start" id="par_2">
                     Early diagnosis of diabetes is important to prevent the worst effects of the disease.
                     Regular check-ups and blood tests with a healthcare provider can help detect diabetes early.
                     diabetes early treatment can potentially avoid the complications that coincide with the subsequent
@@ -92,7 +100,7 @@
                 </div>
 
                 <div class="col-6">
-                    <img src="../static/img/3.jpg" class="img-fluid  fs-4 mt-5 align-items-center " alt="diabetes"
+                    <img src="../static/img/3.jpg" class="img-fluid fs-4 mt-5 align-items-center " alt="diabetes"
                         id="img_2">
                 </div>
 
@@ -107,21 +115,15 @@
     <!-- //////////////////////////////////////////////////////////////////////////////////////// -->
 
 
-    <div class="container-fluid  mb-5 pb-5 border-opacity-50  border-black  " id="header_3">
+    <div class="container-fluid mb-5 pb-5 border-opacity-50  border-black" id="header_3">
         <div class="container  pt-5">
-            <h1 id="header_1_color">our model
-            </h1>
+            <h1 id="header_1_color">Our Model</h1>
 
-
-
-
-
-
-            <div class="card container  mt-5 mb-5">
+            <div class="card container mt-5 mb-5">
                 <img src="../static/img/eda1.png " class="card-img-top border-5 fw-bold  " width="100" height="500"
                     alt="3">
 
-                <div class="card-body border-5 fw-semibold">
+                <div class="card-body border-5">
                     <h5 class="card-title fw-bold">Card 1</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's
@@ -129,11 +131,11 @@
                 </div>
             </div>
 
-            <div class="card container  mt-5">
+            <div class="card container mt-5">
                 <img src="../static/img/eda2.png " class="card-img-top border-5 fw-bold  " width="100" height="500"
                     alt="3">
 
-                <div class="card-body border-5 fw-semibold">
+                <div class="card-body border-5">
                     <h5 class="card-title fw-bold">Card 2</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's
@@ -142,33 +144,33 @@
             </div>
 
 
-            <div class="card container  mt-5">
+            <div class="card container mt-5">
                 <img src="../static/img/eda3.png " class="card-img-top border-5 fw-bold  " width="100" height="500"
                     alt="3">
 
-                <div class="card-body border-5 fw-semibold">
+                <div class="card-body border-5 ">
                     <h5 class="card-title fw-bold">Card 3</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's
                         content.</p>
                 </div>
             </div>
-            <div class="card container  mt-5">
+            <div class="card container mt-5">
                 <img src="../static/img/eda4.png " class="card-img-top border-5 fw-bold  " width="100" height="500"
                     alt="3">
 
-                <div class="card-body border-5 fw-semibold">
+                <div class="card-body border-5">
                     <h5 class="card-title fw-bold">Card 4</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's
                         content.</p>
                 </div>
             </div>
-            <div class="card container  mt-5">
+            <div class="card container mt-5">
                 <img src="../static/img/eda5.png " class="card-img-top border-5 fw-bold  " width="100" height="500"
                     alt="3">
 
-                <div class="card-body border-5 fw-semibold">
+                <div class="card-body border-5">
                     <h5 class="card-title fw-bold">Card 5</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's
@@ -179,7 +181,7 @@
                 <img src="../static/img/eda6.png " class="card-img-top border-5 fw-bold  " width="100" height="500"
                     alt="3">
 
-                <div class="card-body border-5 fw-semibold">
+                <div class="card-body border-5">
                     <h5 class="card-title fw-bold">visulization 6</h5>
                     <p class="card-text">this is a visulization foor the relation between gulucose an cholesterol</p>
                 </div>
@@ -190,16 +192,15 @@
     <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
 
 
-    <h1 id="header_2_color" class="text-center mt-5 mb-5 pb-5">Diabetes classification
-    </h1>
-
+    
     <div id="form_style">
+        <h1 class="text-center mt-5 mb-5 pb-5">Diabetes classification</h1>
         <form action="/predict" method="post">
             <div class="container justify-content-center">
 
                 <div class="row justify-content-center mt-5 mb-5">
                     <div class="col-5">
-                        <input type="number" aria-label=" feature 1" class="form-control" id="input_1"
+                        <input type="text" aria-label=" feature 1" class="form-control" id="input_1"
                             placeholder="cholesterol" name="cholesterol">
                     </div>
                     <div class="col-5">
@@ -235,9 +236,9 @@
                     </div>
                 </div>
                 <div class="container-fluid justify-content-end text-end ">
-                    <button class="btn btn-primary mb-4 ms-4" type="submit" name="predict_button" value="knn_predict">Predict
+                    <button class="btn mb-4 ms-4 submit_btn" type="submit" name="predict_button" value="knn_predict">Predict
                         Using KNN</button>
-                    <button class="btn btn-primary mb-4 ms-4" type="submit" name="predict_button" value="svm_predict">Predict
+                    <button class="btn mb-4 ms-4 submit_btn" type="submit" name="predict_button" value="svm_predict">Predict
                         Using SVM</button>
                 </div>
             </div>

@@ -7,6 +7,7 @@
     font-family: "Palanquin";
     src: url(../fonts/Palanquin-Regular.ttf);
 }
+
 #main_body{
     background-color: #FFFDFD;
     color: #262626;
@@ -22,39 +23,35 @@
     font-family: "HindVadodara";
 }
 
-#header_1_color{
+
+#risks_header{
+    color: #262626;
+    font-family: "HindVadodara";
+     text-shadow: 3px 1px 2px #F63C67; 
+
+}
+#main_header{
     color: #262626;
     font-family: "HindVadodara";
 }
 
-#header_2_color{
-    color: #262626;
-    font-family: "HindVadodara";
-}
 
-
-#par_1{
+.par_all{
     font-family: "Palanquin";
+    font-style:oblique;
+    font-weight:550;
 }
 
 
-#par_2{
-    font-family:  "Palanquin";
+
+.cards_header{
+    color: #262626;
+    font-family: "HindVadodara";
+    text-shadow: 3px 1px 2px #F63C67; 
 }
 
 
-#img_1{
-    border-radius:5%;
-    width: 1000px;
-    height: 500px;
-}
-
-
-#img_2{
-    border-radius: 5%;
-    width: 600px;
-}
-
+  
 #form_style{
     color: #FFFDFD;
     background-color: #4F759B;

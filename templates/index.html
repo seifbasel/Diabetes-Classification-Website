@@ -38,7 +38,10 @@
                             <a class="nav-link active ms-6 me-5 text-white" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active ms-6 me-5 text-white" href="#header_3">Model</a>
+                            <a class="nav-link active ms-6 me-5 text-white" href="#header_3">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-6 me-5 text-white" href="#header_4">Model</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active ms-6 me-5 text-white" href="#form_style">Classification</a>
@@ -50,7 +53,7 @@
     </div>
 
     <div class="container-fluid justify-content-center">
-        <div class="jumbotron text-capitalize m-4 p-5 pt-2" id="header_1_color">
+        <div class="jumbotron text-capitalize m-4 p-5 pt-2" id="main_header">
             <div class="row align-items-center">
                 <div class="col-md-8">
                     <h1>Diabetes examination</h1>
@@ -59,24 +62,22 @@
                     <p><a class="btn btn-lg mt-3 submit_btn" href="#form_style" role="button">classification</a></p>
                 </div>
                 <div class="col-md-3">
-                    <object type="image/svg+xml" width="300px" height="300px"
-                        data="../static/img/1.svg"></object>
+                    <object type="image/svg+xml" width="300px" height="300px" data="../static/img/1.svg"></object>
                 </div>
             </div>
         </div>
     </div>
     <hr>
-    <div class="container-fluid ps-5 align-content-center">
-        <div class="container-fluid text-center pt-5 align-content-center">
-            <h1 id="header_1_color">Diabetes Risks
+    <div class="container-fluid ps-5 align-content-center" id="header_3">
+        <div class="container-fluid text-center pt-5 ">
+            <h1 id="risks_header">About Diabetes
             </h1>
-            <div class="row align-items-center justify-content-center mb-5 mt-5">
-                <div class="col-3 align-content-center ms-0">
-                    <object type="image/svg+xml" width="300px" height="300px"
-                        data="../static/img/2.svg"></object>
+            <div class="row align-items-center justify-content-center  mt-4">
+                <div class="col-3">
+                    <object type="image/svg+xml" width="300px" height="300px" data="../static/img/2.svg"></object>
                 </div>
 
-                <div class="col-9 align-content-start fw-medium fs-4 text-start" id="par_1">
+                <div class="col-9 fs-4 mt-5 text-start align-items-end par_all">
                     Diabetes is a chronic metabolic disorder characterized by high blood sugar levels, resulting from
                     insufficient insulin production or ineffective insulin utilization. It is categorized into type 1,
                     which appears in childhood and requires lifelong insulin treatment, and type 2, associated with
@@ -89,9 +90,9 @@
 
 
         <div class="container-fluid mb-5 pb-5 pe-5">
-            <div class="container text-center">
+            <div class="container-fluid text-center">
                 <div class="row align-items-center justify-content-center mb-5">
-                    <div class="col-9 fw-medium fs-4 mt-5 text-start align-items-start" id="par_2">
+                    <div class="col-9 fs-4 mt-5 text-start align-items-start par_all">
                         The effects of diabetes can be wide-ranging and impactful. Prolonged high blood sugar levels can
                         damage blood vessels and nerves, leading to complications such as cardiovascular issues, kidney
                         damage, eye problems, nerve damage, and an increased risk of infections and slow wound healing.
@@ -100,18 +101,16 @@
                     </div>
 
                     <div class="col-3">
-                        <object type="image/svg+xml" width="300px" height="300px"
-                            data="../static/img/3.svg"></object>
+                        <object type="image/svg+xml" width="300px" height="300px" data="../static/img/3.svg"></object>
                     </div>
 
                 </div>
             </div>
             <div class="row align-items-center justify-content-center mb-5 mt-5">
                 <div class="col-12 align-content-center text-center ms-0">
-                    <object type="image/svg+xml" width="300px" height="300px"
-                        data="../static/img/4.svg"></object>
+                    <object type="image/svg+xml" width="300px" height="300px" data="../static/img/4.svg"></object>
                 </div>
-                <div class="col-12 align-content-start mt-5 fw-medium fs-4 text-start" id="par_1">
+                <div class="col-12 align-content-start mt-5 fs-4 text-start par_all" >
                     Early diagnosis of diabetes is crucial for effective management and prevention of complications. In
                     recent years, advancements in technology and machine learning have facilitated the development of
                     classification models that can aid in predicting the likelihood of an individual having diabetes.
@@ -131,20 +130,22 @@
     <!-- //////////////////////////////////////////////////////////////////////////////////////// -->
 
 
-    <div class="container-fluid mb-5 pb-5 border-opacity-50  border-black" id="header_3">
+    <div class="container-fluid mb-5 pb-5 border-opacity-50  border-black" id="header_4">
         <div class="container  pt-5">
-            <h1 id="header_1_color">Our Model</h1>
+            <h1 class="cards_header">Our Model</h1>
 
             <div class="card container mt-5 mb-5">
                 <img src="../static/img/eda1.png " class="card-img-top border-5 fw-bold  " width="100" height="500"
                     alt="3">
 
                 <div class="card-body border-5">
-                    <h5 class="card-title fw-bold">Card 1</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's
-                        content.</p>
+                    <h5 class="card-title fw-bold">Comparison between diabetic and non-diabetic patient in glucose rate
+                        and weight:</h5>
+                    <p class="card-text">Diabetic patients have Higher glucose rate and higher weight as compared to
+                        Non-diabetic ones
+
+
+                    </p>
                 </div>
             </div>
 
@@ -153,11 +154,10 @@
                     alt="3">
 
                 <div class="card-body border-5">
-                    <h5 class="card-title fw-bold">Card 2</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's
-                        content.</p>
+                    <h5 class="card-title fw-bold">Age relation to diabetes:</h5>
+                    <p class="card-text">The Age is not directly related, but higher glucose level in oldies can be a
+                        cause of Diabetes in them, also the males of age 40 to 80 have higher blood glucose level than
+                        females.</p>
                 </div>
             </div>
 
@@ -167,11 +167,9 @@
                     alt="3">
 
                 <div class="card-body border-5 ">
-                    <h5 class="card-title fw-bold">Card 3</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's
-                        content.</p>
+                    <h5 class="card-title fw-bold">Bp relation to diabetes:</h5>
+                    <p class="card-text">The BP is not directly related to the diabetes, as patients have the highest BP
+                        are found to be Non-diabetic.</p>
                 </div>
             </div>
             <div class="card container mt-5">
@@ -179,11 +177,8 @@
                     alt="3">
 
                 <div class="card-body border-5">
-                    <h5 class="card-title fw-bold">Card 4</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's
-                        content.</p>
+                    <h5 class="card-title fw-bold">Age relation to diabetes:</h5>
+                    <p class="card-text">Diabetic patients have lower HDL-Cholesterol</p>
                 </div>
             </div>
             <div class="card container mt-5">
@@ -191,11 +186,8 @@
                     alt="3">
 
                 <div class="card-body border-5">
-                    <h5 class="card-title fw-bold">Card 5</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's
-                        content.</p>
+                    <h5 class="card-title fw-bold">Gender relation to diabetes:</h5>
+                    <p class="card-text">Females being diabetic are more than the males being diabetic.</p>
                 </div>
             </div>
             <div class="card container mt-5">
@@ -203,17 +195,15 @@
                     alt="3">
 
                 <div class="card-body border-5">
-                    <h5 class="card-title fw-bold">visulization 6</h5>
-                    <p class="card-text">this is a visulization foor the relation between gulucose an cholesterol
-                    </p>
+                    <h5 class="card-title fw-bold">Cholestrol relation to diabetes:</h5>
+                    <p class="card-text">Higher cholestrol is seen in the patients having diabetes</p>
                 </div>
             </div>
 
         </div>
     </div>
+
     <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
-
-
 
     <div id="form_style">
         <h1 class="text-center mt-5 mb-5 pb-5">Diabetes classification</h1>

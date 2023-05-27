@@ -27,7 +27,7 @@
 #risks_header{
     color: #262626;
     font-family: "HindVadodara";
-     text-shadow: 3px 1px 2px #F63C67; 
+     text-shadow: 3px 1px 2px #f63c6760; 
 
 }
 #main_header{
@@ -38,19 +38,19 @@
 
 .par_all{
     font-family: "Palanquin";
-    font-style:oblique;
-    font-weight:550;
 }
-
-
 
 .cards_header{
     color: #262626;
     font-family: "HindVadodara";
-    text-shadow: 3px 1px 2px #F63C67; 
+    text-shadow: -3px 1px 2px #f63c6760; 
 }
 
-
+#form_header {
+    color: #FFFDFD;
+    font-family: "HindVadodara";
+    text-shadow: -3px 3px 5px #f63c6793; 
+}
   
 #form_style{
     color: #FFFDFD;
@@ -72,6 +72,10 @@
     color: #FFFDFD;
     font-family: "Palanquin";
 }
+.form_half {
+    width: 50%;
+}
+
 
 hr {
     border: 0;

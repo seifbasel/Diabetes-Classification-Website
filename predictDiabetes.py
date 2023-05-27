@@ -80,11 +80,15 @@ for i in range(1,20) :
     knn.fit(X_train, y_train)
     y_predict = knn.predict(X_test)
     accuracy = accuracy_score(y_test, y_predict)
-    score.append(accuracy)
+    score.append(accuracy*100)
     print('KNN accuracy with {0} neighbors is : {1}'.format(i, accuracy))
 
 plt.figure()
 plt.plot(range(1,20), score)
+plt.xlabel("K")
+plt.ylabel('Accuraccy (%)')
+plt.xlim((0,20))
+plt.ylim((88,92))
 plt.show()
 '''
 #KNN Model
@@ -113,7 +117,7 @@ print('nn accuracy : ', accuracy_score(y_test, nnpredict))
 
 
 def predict_diabetes_KNN(cholesterol, glucose, hdl_chol, age, weight, systolic_bp, diastolic_bp):
-    user_inputs = np.array([cholesterol, glucose, hdl_chol, age, weight, systolic_bp, diastolic_bp]).reshape(1, -1)
+    user_inputs = np.array([cholesterol, glucose, hdl_chol, age, float(weight) * 2.2, systolic_bp, diastolic_bp]).reshape(1, -1)
     user_df = pd.DataFrame(user_inputs, columns=['cholesterol', 'glucose', 'hdl_chol', 'age', 'weight', 'systolic_bp', 'diastolic_bp'])
     
     prediction = kNN.predict(user_df)
@@ -121,11 +125,11 @@ def predict_diabetes_KNN(cholesterol, glucose, hdl_chol, age, weight, systolic_b
     return prediction[0]
 
 def predict_diabetes_SVM(cholesterol, glucose, hdl_chol, age, weight, systolic_bp, diastolic_bp):
-    user_inputs = np.array([cholesterol, glucose, hdl_chol, age, weight, systolic_bp, diastolic_bp]).reshape(1, -1)
+    user_inputs = np.array([cholesterol, glucose, hdl_chol, age, float(weight) * 2.2, systolic_bp, diastolic_bp]).reshape(1, -1)
     user_df = pd.DataFrame(user_inputs, columns=['cholesterol', 'glucose', 'hdl_chol', 'age', 'weight', 'systolic_bp', 'diastolic_bp'])
-    
+
     prediction = svm.predict(user_df)
     
     return prediction[0]
 
-# print(predict_diabetes_KNN(203, 299, 43, 38, 288, 136, 83))
+print(predict_diabetes_KNN(203, 299, 43, 38, 130, 136, 83))

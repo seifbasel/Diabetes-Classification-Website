@@ -110,7 +110,7 @@
                 <div class="col-12 align-content-center text-center ms-0">
                     <object type="image/svg+xml" width="300px" height="300px" data="../static/img/4.svg"></object>
                 </div>
-                <div class="col-12 align-content-start mt-5 fs-4 text-start par_all" >
+                <div class="col-12 align-content-start mt-5 fs-4 text-start par_all">
                     Early diagnosis of diabetes is crucial for effective management and prevention of complications. In
                     recent years, advancements in technology and machine learning have facilitated the development of
                     classification models that can aid in predicting the likelihood of an individual having diabetes.
@@ -133,18 +133,14 @@
     <div class="container-fluid mb-5 pb-5 border-opacity-50  border-black" id="header_4">
         <div class="container  pt-5">
             <h1 class="cards_header">Our Model</h1>
-
             <div class="card container mt-5 mb-5">
                 <img src="../static/img/eda1.png " class="card-img-top border-5 fw-bold  " width="100" height="500"
                     alt="3">
 
                 <div class="card-body border-5">
-                    <h5 class="card-title fw-bold">Comparison between diabetic and non-diabetic patient in glucose rate
-                        and weight:</h5>
-                    <p class="card-text">Diabetic patients have Higher glucose rate and higher weight as compared to
-                        Non-diabetic ones
-
-
+                    <h5 class="card-title fw-bold">Glucose and Weight Comparison</h5>
+                    <p class="card-text"> Diabetic patients have higher glucose rate and weight compared to non-diabetic
+                        individuals.
                     </p>
                 </div>
             </div>
@@ -154,10 +150,10 @@
                     alt="3">
 
                 <div class="card-body border-5">
-                    <h5 class="card-title fw-bold">Age relation to diabetes:</h5>
-                    <p class="card-text">The Age is not directly related, but higher glucose level in oldies can be a
-                        cause of Diabetes in them, also the males of age 40 to 80 have higher blood glucose level than
-                        females.</p>
+                    <h5 class="card-title fw-bold">Age and Diabetes</h5>
+                    <p class="card-text">While age is not directly related to diabetes, older individuals with higher
+                        glucose levels are more prone to developing diabetes. Additionally, males between the ages of 40
+                        and 80 tend to have higher blood glucose levels than females.</p>
                 </div>
             </div>
 
@@ -167,9 +163,9 @@
                     alt="3">
 
                 <div class="card-body border-5 ">
-                    <h5 class="card-title fw-bold">Bp relation to diabetes:</h5>
-                    <p class="card-text">The BP is not directly related to the diabetes, as patients have the highest BP
-                        are found to be Non-diabetic.</p>
+                    <h5 class="card-title fw-bold">Blood Pressure and Diabetes</h5>
+                    <p class="card-text">Blood pressure is not directly related to diabetes. Interestingly, non-diabetic
+                        patients often exhibit higher blood pressure levels.</p>
                 </div>
             </div>
             <div class="card container mt-5">
@@ -177,8 +173,8 @@
                     alt="3">
 
                 <div class="card-body border-5">
-                    <h5 class="card-title fw-bold">Age relation to diabetes:</h5>
-                    <p class="card-text">Diabetic patients have lower HDL-Cholesterol</p>
+                    <h5 class="card-title fw-bold">HDL-Cholesterol and Diabetes</h5>
+                    <p class="card-text">Diabetic patients tend to have lower levels of HDL-cholesterol.</p>
                 </div>
             </div>
             <div class="card container mt-5">
@@ -186,65 +182,104 @@
                     alt="3">
 
                 <div class="card-body border-5">
-                    <h5 class="card-title fw-bold">Gender relation to diabetes:</h5>
-                    <p class="card-text">Females being diabetic are more than the males being diabetic.</p>
+                    <h5 class="card-title fw-bold">Gender and Diabetes</h5>
+                    <p class="card-text">Females have a higher prevalence of diabetes compared to males.</p>
                 </div>
             </div>
             <div class="card container mt-5">
                 <img src="../static/img/eda6.png " class="card-img-top border-5 fw-bold  " width="100" height="500"
                     alt="3">
-
                 <div class="card-body border-5">
-                    <h5 class="card-title fw-bold">Cholestrol relation to diabetes:</h5>
-                    <p class="card-text">Higher cholestrol is seen in the patients having diabetes</p>
+                    <h5 class="card-title fw-bold">Cholesterol and Diabetes</h5>
+                    <p class="card-text">Patients with diabetes commonly have higher cholesterol levels.</p>
                 </div>
             </div>
-
+            <h2 class="mt-5 mb-5 cards_header">K-Nearest Neighbors Model</h1>
+                <div class="card container mt-5">
+                    <img src="../static/img/knn_score.png " class="card-img-top border-5 fw-bold  " width="100"
+                        height="500" alt="3">
+                    <div class="card-body border-5">
+                        <h5 class="card-title fw-bold">KNN Classifier Accuracy</h5>
+                        <p class="card-text">value of k=5 achieves the highest accuracy score of <b>91.76%</b>. This
+                            optimal k value will be utilized in the classification model for accurate predictions.</p>
+                    </div>
+                </div>
+                <h2 class="mt-5 mb-5 cards_header">Support Vector Machine Model</h1>
+                    <div class="card container mt-5">
+                        <div class="card-body border-5">
+                            <h5 class="card-title fw-bold">SVM Classifier Accuracy</h5>
+                            <p class="card-text">The Support Vector Machine (SVM) classification model, implemented
+                                using the sklearn library, has been evaluated for accuracy. Through extensive testing,
+                                it has been found that the SVM model achieves an impressive accuracy score of
+                                <b>92.94%</b>. This high accuracy score highlights the effectiveness of the SVM
+                                algorithm in accurately classifying diabetes cases in the dataset. The SVM classifier
+                                will be utilized to provide reliable predictions in the classification process.</p>
+                        </div>
+                    </div>
+                    <h2 class="mt-5 mb-5 cards_header">Neural Network Model</h1>
+                        <div class="card container mt-5">
+                            <div class="card-body border-5">
+                                <h5 class="card-title fw-bold">Neural Network Model Accuracy</h5>
+                                <p class="card-text">The neural network model, implemented using the MLPClassifier in
+                                    the sklearn library, has been evaluated for accuracy. Due to the limited size of the
+                                    dataset, the model yields a lower accuracy score of <b>83.3%</b>. However, it is
+                                    important to note that the small dataset size limits the model's ability to
+                                    generalize effectively. As a result, the neural network model will not be utilized
+                                    in the classification process to ensure reliable and accurate predictions.
+                                    Alternative models with better performance on larger datasets will be explored for
+                                    the diabetes classification task.</p>
+                            </div>
+                        </div>
         </div>
     </div>
 
     <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
 
     <div id="form_style">
-        <h1 class="text-center mt-5 mb-5 pb-5">Diabetes classification</h1>
+        <h1 class="text-center pt-5 mt-5 mb-5" id="form_header">Diabetes classification</h1>
         <form action="/predict" method="post">
             <div class="container justify-content-center">
-
-                <div class="row justify-content-center mt-5 mb-5">
-                    <div class="col-5">
-                        <input type="text" aria-label=" feature 1" class="form-control" id="input_1"
-                            placeholder="cholesterol" name="cholesterol">
-                    </div>
-                    <div class="col-5">
-                        <input type="text" aria-label=" feature 2" class="form-control" id="input_2"
-                            placeholder="glucose" name="glucose">
-                    </div>
+                <div class="input-group">
+                    <input type="text" aria-label=" feature 2" class="form-control" id="input_2" placeholder="Glucose (Standard Rate 70-99 mg/dL)"
+                        name="glucose">
+                    <span class="input-group-text">mg/dL</span>
                 </div>
-
                 <div class="row justify-content-center mt-5 mb-5">
-                    <div class="col-5">
+                    <div class="col-5 input-group form_half">
+                        <input type="text" aria-label="feature 1" class="form-control" id="input_1"
+                            placeholder="Cholesterol (Standard Rate below 200 mg/dL)" name="cholesterol">
+                        <span class="input-group-text">mg/dL</span>
+                    </div>
+                    <div class="col-5 input-group form_half">
                         <input type="text" aria-label=" feature 3" class="form-control" id="input_3"
-                            placeholder="hdl_chol" name="hdl_chol">
+                            placeholder="HDL Cholesterol (Standard Rate > 40-50 mg/dL)" name="hdl_chol">
+                        <span class="input-group-text">mg/dL</span>
                     </div>
-                    <div class="col-5">
-                        <input type="text" aria-label=" feature 4" class="form-control" id="input_4" placeholder="age"
+
+                </div>
+
+                <div class="row justify-content-center mt-5 mb-5">
+                    <div class="col-5 input-group form_half">
+                        <input type="text" aria-label=" feature 4" class="form-control" id="input_4" placeholder="Age"
                             name="age">
+                        <span class="input-group-text">years</span>
                     </div>
-                </div>
-                <div class="row justify-content-center mt-5 mb-5">
-                    <div class="col-5">
+                    <div class="col-5 input-group form_half">
                         <input type="text" aria-label=" feature 5" class="form-control" id="input_5"
-                            placeholder="weight" name="weight">
-                    </div>
-                    <div class="col-5">
-                        <input type="text" aria-label=" feature 6" class="form-control" id="input_6"
-                            placeholder="systolic_bp" name="systolic_bp">
+                            placeholder="Weight" name="weight">
+                        <span class="input-group-text">kg</span>
                     </div>
                 </div>
                 <div class="row justify-content-center mt-5 mb-5">
-                    <div class="col-5">
+                    <div class="col-5 input-group form_half">
+                        <input type="text" aria-label=" feature 6" class="form-control" id="input_6"
+                            placeholder="Systolic Blood Pressure (Standard Rate below 120 mmHg)" name="systolic_bp">
+                        <span class="input-group-text">mmHg</span>
+                    </div>
+                    <div class="col-5 input-group form_half">
                         <input type="text" aria-label=" feature 7" class="form-control" id="input_7"
-                            placeholder="diastolic_bp" name="diastolic_bp">
+                            placeholder="Diastolic Blood Pressure (Standard Rate below 80 mmHg)" name="diastolic_bp">
+                        <span class="input-group-text">mmHg</span>
                     </div>
                 </div>
                 <div class="container-fluid justify-content-end text-end ">
@@ -256,6 +291,7 @@
                         Using SVM</button>
                 </div>
             </div>
+
         </form>
     </div>
 

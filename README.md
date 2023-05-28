@@ -2,7 +2,6 @@
 # Run
 To run the project run the application.py file
  # Project Summary
-
 The goal of this project is to develop a classification model for diabetes prediction. The project utilizes various machine learning algorithms and techniques to analyze a dataset of patients' health information and determine the likelihood of an individual having diabetes. 
 
 ## Dataset Analysis

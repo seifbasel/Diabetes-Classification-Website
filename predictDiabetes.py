@@ -132,4 +132,4 @@ def predict_diabetes_SVM(cholesterol, glucose, hdl_chol, age, weight, systolic_b
     
     return prediction[0]
 
-print(predict_diabetes_KNN(203, 299, 43, 38, 130, 136, 83))
+# print(predict_diabetes_KNN(203, 299, 43, 38, 130, 136, 83))

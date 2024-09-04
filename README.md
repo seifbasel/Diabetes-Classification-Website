@@ -18,9 +18,9 @@ To provide an interactive user experience, a web application was developed using
 ## Conclusion
 This project highlights the significance of classification models in diabetes prediction. The accuracy achieved by the KNN and SVM models emphasizes their potential for accurate classification. The web application serves as a practical tool for individuals to assess their risk of diabetes and seek appropriate medical guidance. Further enhancements and model refinements can be explored to improve prediction accuracy and expand the scope of the project.
 
-## demo
+## Demo
 
-<video controls src="project demo.mp4" title="demo">check the demo here</video>
+[Download the demo video](projectdemo.mp4)
 
 ## Installation
 To set up the project locally, follow these steps:

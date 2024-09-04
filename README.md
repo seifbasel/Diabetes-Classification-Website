@@ -20,7 +20,7 @@ This project highlights the significance of classification models in diabetes pr
 
 ## demo
 
-<video controls src="project demo.mp4" title="demo"></video>
+<video controls src="project demo.mp4" title="demo">check the demo here</video>
 
 ## Installation
 To set up the project locally, follow these steps:

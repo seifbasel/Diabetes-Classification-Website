@@ -20,7 +20,7 @@ This project highlights the significance of classification models in diabetes pr
 
 ## Demo video
 
-[Download the demo video][projectdemo.mp4](https://github.com/seifbasel/Diabetes-Classification-Website/blob/main/project%20demo.mp4)
+[Download the demo video](https://github.com/seifbasel/Diabetes-Classification-Website/blob/main/project%20demo.mp4)
 
 ## Installation
 To set up the project locally, follow these steps:
